@@ -3,11 +3,11 @@ Create Dialogue Boxes in minutes!
 
 # How to implement:
 1) Import the DialogueBoxes.unitypackage in your Unity project
-2) Create an empty gameObject and add the DialogueSystem.cs script to it
-3) Create another empty gameObject as a child of this gameObject.
-4) Add the graphics of the dialogue box and the text as a child of the second gameObject.
+2) Create an empty GameObject and add the DialogueSystem.cs script to it
+3) Create another empty GameObject as a child of this GameObject.
+4) Add the graphics of the dialogue box and the text as a child of the second GameObject.
 5) Assign the target Text in the Dialogue Text field in the inspector.
-6) Assign the second empty gameObject to the Panel field in the inspector
+6) Assign the second empty GameObject to the Panel field in the inspector
 7) Done!
 
 # How to use:
