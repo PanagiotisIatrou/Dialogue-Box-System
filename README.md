@@ -14,17 +14,17 @@ Create Dialogue Boxes in minutes!
 - You can start using the Dialogue Box System after referencing the DialogueSystem script component in your manager script.
 There are many methods you can use.
 - You can start adding dialogues:
-```CSharp
+```csharp
 myDialogueSystem.AddDialogue("Hello World!"); // Does not yet display.
 myDialogueSystem.AddDialogue("How are you?"); // Does not yet display.
 ```
 - You can then start showing the dialogues one at a time:
-```CSharp
+```csharp
 myDialogueSystem.Show(); // Will open the dialogue box and show "Hello World!"
 myDialogueSystem.Show(); // Will open the dialogue box and show "How are you?" after the player clicks the last one.
 ```
 - You can also show all the dialogues you have added:
-```CSharp
+```csharp
 myDialogueSystem.ShowAll(); // Shows all dialogues.
 ```
 - In case you want to stop showing all dialogues you can:
